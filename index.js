@@ -118,11 +118,11 @@ form.addEventListener("submit", (e) => {
     });
 });
 
-modal.addEventListener("click", (e) => {
-  if (e.target === modal) {
-    closeModal();
-  }
-});
+// modal.addEventListener("click", (e) => {
+//   if (e.target === modal) {
+//     closeModal();
+//   }
+// });
 
 //Sağ ve sol yön tuşlarına baSınca da resim değişmesini sağlar
 document.addEventListener("keydown", (e) => {
@@ -151,14 +151,6 @@ const updateModal = (index) => {
 
   modal.innerHTML += modalHtml;
 };
-
-// // next arrowuna tıklayınca modal da ileri gitmesini sağlar
-// const nextButton = document.querySelector(".modal__next--button");
-// nextButton.addEventListener("click", nextImage);
-
-// // next arrowuna tıklayınca modal da geri gitmesini sağlar
-// const prevButton = document.querySelector(".modal__previous--button");
-// prevButton.addEventListener("click", prevImage);
 
 // galery i dinler üzerine tıklayınca resmi getirir
 gallery.forEach((img, index) => {
