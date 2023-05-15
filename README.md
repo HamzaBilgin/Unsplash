@@ -1,1 +1,1 @@
-# Unsplash
+Bir api servisine şehir veya ülke adı girerek istek atıp oradan gelen verilerden olan resimleri ekrana basıldı. Ekranda olan resimlere tıklanınca modal oluşturması ve modallar arası sağ ve sol oklar veya yöön tuşları sayesinde gezinti yapmasını sağladım. 
