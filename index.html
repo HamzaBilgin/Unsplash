@@ -1,34 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Document</title>
-</head>
-<body>
-    <div class="search-form">
-        <form>
-            <input
-                type="text"
-                name="query"
-                id="search-input"
-                placeholder="Search..."
-                autocomplete="off"
-            />
-        </form>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar__logo">
+        <img src="img/navbarLogo.png" alt="" />
+      </div>
+      <div class="navbar__links">
+        <ul>
+          <li>Abaout</li>
+          <li>What I Do</li>
+          <li>My Work</li>
+          <li>Contact</li>
+        </ul>
+      </div>
     </div>
-    <div class="modal">
+    <div class="intro">
+      <div class="intro__left">
+        <h2>Hi, my name is Kristina.</h2>
+        <h2 class="intro__left__bold">I teach UX/UI</h2>
+        <h2 class="intro__left__bold">& Product</h2>
+        <h2 class="intro__left__bold">Design.</h2>
+        <h2 style="margin-bottom: 40px">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, eos?
+        </h2>
+        <a href="https://your-link-here.com" class="learn-from-me-button"
+          >Learn from Me</a
+        >
+        <script src="index.js"></script>
+      </div>
+      <div class="intro__right">
+        <div class="intro__right__üst--img column">
+          <img src="img/logoüst.png" alt="" />
+        </div>
+        <div class="intro__right__alt--img column">
+          <img src="img/logoalt.jpeg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="whatIDo">
+      <div class="whatIDo__text">
+        <h2>Passion led us here</h2>
+        <h2 style="font-weight: bold; font-size: 50px">What I do</h2>
+      </div>
+
+      <div class="whatIDo__cards">
+        <div class="whatIDo__cards__card">
+          <img
+            class="whatIDo__cards__card__img"
+            src="img/whatIDo1.png"
+            alt=""
+          />
+          <h1>Product Design</h1>
+          <p>
+            I have designed mobile apps, websites and eCommerce stores. In my
+            daily work I ideate, create wireframes, lead UX researches, plan
+            flows and deliver hi-fi prototypes.
+          </p>
+          <a href="">
+            <div
+              class="whatIDo__cards__card__link"
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <p>See my work</p>
+              <img src="img/rightArrow.svg" alt="" />
+            </div>
+          </a>
+        </div>
+
+        <div class="whatIDo__cards__card">
+          <img
+            class="whatIDo__cards__card__img"
+            src="img/whatIDo2.png"
+            alt=""
+          />
+          <h1>1:1 Coaching</h1>
+          <p>
+            I help junior designers kickstart their design career. I provide
+            personal feedback on their projects and support with creating a
+            professional portfolio and personal brand.
+          </p>
+          <a href="">
+            <div
+              class="whatIDo__cards__card__link"
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <p>Get in touch</p>
+              <img src="img/rightArrow.svg" alt="" />
+            </div>
+          </a>
+        </div>
+
+        <div class="whatIDo__cards__card">
+          <img
+            class="whatIDo__cards__card__img"
+            src="img/whatIDo3.png"
+            alt=""
+          />
+          <h1>Education</h1>
+          <p>
+            I am one of the mentors in the online Dribbble UI & Product Design
+            Courses. You will learn design process, Figma fundamentals & create
+            your first case study together with me.
+          </p>
+          <a href="">
+            <div class="whatIDo__cards__card__link">
+              <p>learn more</p>
+              <img src="img/rightArrow.svg" alt="" />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="featured">
+      <div style="display: flex; align-items: center; justify-content: center;">
+        <h2>Featured Projects</h2>
+      </div>
+
+
+      <div class="featured__body">
+
+
+        <div class="featured__body__top">
+          <div class="featured__body__top__img">
+            <img src="img/featuredLeft.jpeg" alt="" />
+          </div>
+          <div class="featured__body__top__text">
+            <button class="featured__body__top__text__button--left">
+              Mobile
+            </button>
+            <button class="featured__body__top__text__button--right">
+              Web Design
+            </button>
+            <h3>SweatPaws: Dog Health Quiz for Gen</h3>
+            <p>
+              This playful dog step calculator is designed for GenZ and their
+              love for dogs. I was experimenting with neon and Midjourney AI to
+              bring you a truly pawsome user experience.
+            </p>
+
+            <a href="">
+              <div class="featured__body__link">
+                <p>See full case study</p>
+                <img src="img/rightArrow.svg" alt="" />
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+
         
+        <div class="featured__body__bottom"></div>
+      </div>
     </div>
-    <div class="search-gallery">
-       
-    </div>
-
-
-
-    <script src="index.js"></script>
-</body>
+  </body>
 </html>
